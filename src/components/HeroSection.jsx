@@ -26,7 +26,7 @@ const HeroSection = () => {
 
       <div className="flex my-10 justify-center lg:px-16">
         <video
-          //   autoPlay
+          autoPlay
           loop
           muted
           className="w-1/2 rounded-lg border border-orange-700 shadow-orange-400 mx-2 my-4 "
@@ -35,7 +35,7 @@ const HeroSection = () => {
           Your browser does not support the video tag.
         </video>
         <video
-          //   autoPlay
+          autoPlay
           loop
           muted
           className="w-1/2 rounded-lg border border-orange-700 shadow-orange-400 mx-2 my-4 "

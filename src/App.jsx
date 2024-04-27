@@ -5,6 +5,7 @@ import Workflow from "./components/Workflow";
 import PricingSection from "./components/PricingSection";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Testimonials />
           <Footer />
         </div>
+        <SpeedInsights />
       </>
     </div>
   );
